@@ -33,5 +33,5 @@ Para recuperar os dados que foram selecionados use o seletor jQuery e utilize da
     let values = $('#multiPick').getMultiPick();
 ```
 
-## Personalizaçãoo
+## Personalização
 Você pode personalizar as cores do seletor dentro do arquivo [Style-config.less](https://github.com/Kaynan13/jQuery-MultiPick/blob/main/Style-config.less)
