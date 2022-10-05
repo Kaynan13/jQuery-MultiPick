@@ -1,5 +1,5 @@
 # jQuery-MultiPick
- jQuery easy multi select component
+Seletor multiplo jQuery de facil utilização.
 
 ## Requisitos
 
@@ -29,6 +29,9 @@ Usando o selector jQuery faça a chamada para o componente passando os parametro
 
 Para recuperar os dados que foram selecionados use o seletor jQuery e utilize da função: `getMultiPick`.
 
-```
+```js
     let values = $('#multiPick').getMultiPick();
 ```
+
+## Personalizaçãoo
+Você pode personalizar as cores do seletor dentro do arquivo [Style-config.less](https://github.com/Kaynan13/jQuery-MultiPick/blob/main/Style-config.less)
