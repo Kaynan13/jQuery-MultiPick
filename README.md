@@ -35,3 +35,10 @@ Para recuperar os dados que foram selecionados use o seletor jQuery e utilize da
 
 ## Personalização
 Você pode personalizar as cores do seletor dentro do arquivo [Style-config.less](https://github.com/Kaynan13/jQuery-MultiPick/blob/main/Style-config.less)
+
+
+## Exemplos
+
+![Versão grande do componente](https://github.com/Kaynan13/jQuery-MultiPick/blob/main/img/huge-ex.png)
+
+![Versão pequena do componente](https://github.com/Kaynan13/jQuery-MultiPick/blob/main/img/slim-ex.png)
