@@ -17,7 +17,7 @@ Importe os arquivos css e js em seu html.
 Usando o selector jQuery faça a chamada para o componente passando os parametros desejados.
 
 ```js
-  $('#multiSelect').multiPick({
+  $('#multiPick').multiPick({
         limit: 3,
         image: true,
         closeAfterSelect: false,
@@ -25,4 +25,10 @@ Usando o selector jQuery faça a chamada para o componente passando os parametro
         placeholder: 'Select',
         slim: false
     });
+```
+
+Para recuperar os dados que foram selecionados use o seletor jQuery e utilize da função: `getMultiPick`.
+
+```
+    let values = $('#multiPick').getMultiPick();
 ```
